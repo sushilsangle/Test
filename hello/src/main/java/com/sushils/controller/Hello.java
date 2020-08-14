@@ -9,6 +9,6 @@ public class Hello {
     @GetMapping("/hello")
     public String hello()
     {
-        return "Hello Spring Boot welcome";
+        return "Hello Spring Boot";
     }
 }
