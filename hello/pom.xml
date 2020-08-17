@@ -40,9 +40,13 @@
 		</dependency>
 	</dependencies>
 
-
 	<build>
-		<finalName>hello-docker</finalName>
+		<plugins>
+			<plugin>
+				<groupId>org.springframework.boot</groupId>
+				<artifactId>spring-boot-maven-plugin</artifactId>
+			</plugin>
+		</plugins>
+		<finalName>docker-spring-helloimg</finalName>
 	</build>
-
 </project>
